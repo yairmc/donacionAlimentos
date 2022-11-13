@@ -1,37 +1,72 @@
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    font-family: Nunito;
 }
 
-.title{
+.title {
     background-color: #950000;
     color: #fff;
-    font-size: 40px;
-    padding: 25px 0 0 100px;
-    height: 70px;
+    font-size: 35px;
+    padding: 15px 0 0 100px;
+    height: 50px;
     font-style: italic;
 }
 
-.main{
+.main {
     display: flex;
-    padding:150px;
+    padding: 50px 0;
+    gap: 50px;
 }
 
-.text{
-    padding: 0 100px;
-    width: 30%;
-    font-size: 40px;
-    text-align: center;
+.text {
+    padding: 0 40px;
+    width: 40%;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.contenedorMenu{
+.contenedorMenu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #F85032;
-    border-radius: 20px;
-    padding:30px;
+    border-radius: 30px;
+    padding: 30px;
     width: 100%;
-    height: 100%;
+    height:100%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    gap: 50px;
+    font-size: 20px;
+    margin:0 20px;
 }
 
-.donarComida{
-    background-color:#D7A86E;
+.buttonMenu {
+    background-color: #D7A86E;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.footerMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSalir {
+    align-items: center;
+    background-color: #950000;
+    border-style: none;
+    color: white;
+    width: 214px;
+    height: 79px;
+font-size: 32px;
+border-radius: 15px;
+}
+
+.imgMenuPrincipal {
+    width: 250px;
+    height: 250px;
 }
