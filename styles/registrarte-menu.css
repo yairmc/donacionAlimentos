@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.bienvenido-a-nuestra-aplicacio {
+  position: absolute;
+  top: 0;
+  left: 71px;
+  display: inline-block;
+  width: 361px;
+  height: 376px;
+}
+.kisspng-food-bank-computer-ico-icon1 {
+  position: absolute;
+  top: 354px;
+  left: 0;
+  width: 380px;
+  height: 458px;
+  object-fit: cover;
+}
+.kisspng-charitable-organizatio-icon1 {
+  position: absolute;
+  top: 421px;
+  left: 1049px;
+  width: 391px;
+  height: 391px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.boddy-div1,
+.rectangle-div9 {
+  position: absolute;
+  top: 212px;
+  left: 0;
+  width: 1440px;
+  height: 812px;
+}
+.rectangle-div9 {
+  top: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-brown);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 214px;
+  height: 79px;
+}
+.salir-b {
+  position: absolute;
+  top: 20px;
+  left: 79px;
+  display: inline-block;
+  width: 79px;
+  height: 40px;
+}
+.boton-salir-div {
+  position: absolute;
+  top: 716px;
+  left: 613px;
+  width: 214px;
+  height: 79px;
+  cursor: pointer;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}
+.rectangle-div10,
+.rectangle-div11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+}
+.rectangle-div10 {
+  background-color: #f85032;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  width: 581px;
+  height: 341px;
+}
+.rectangle-div11 {
+  background-color: var(--color-tan);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 276px;
+  height: 79px;
+}
+.login-b {
+  position: absolute;
+  top: 19px;
+  left: 107px;
+  display: inline-block;
+  width: 124px;
+  height: 40px;
+}
+.donar-comida-div {
+  position: absolute;
+  top: 40px;
+  left: 148px;
+  width: 276px;
+  height: 79px;
+  cursor: pointer;
+}
+.invitado-b {
+  position: absolute;
+  top: 19px;
+  left: 36px;
+  display: inline-block;
+  width: 205px;
+  height: 40px;
+}
+.zonas-afectadas-div {
+  position: absolute;
+  top: 174px;
+  left: 152px;
+  width: 276px;
+  height: 79px;
+  cursor: pointer;
+}
+.menucard-div {
+  position: absolute;
+  top: 212px;
+  left: 572px;
+  width: 581px;
+  height: 341px;
+  text-align: left;
+  font-family: var(--font-inria-sans);
+}
+.header-div3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-brown);
+  width: 1440px;
+  height: 80px;
+}
+.pngegg-1-23 {
+  position: absolute;
+  top: 10px;
+  left: 432px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.food-community3 {
+  position: absolute;
+  top: 14px;
+  left: 109px;
+  display: inline-block;
+  font-weight: 700;
+  width: 345px;
+  height: 53px;
+}
+.group-div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 80px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.registrarte-menu-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}

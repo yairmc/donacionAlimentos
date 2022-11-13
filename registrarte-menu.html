@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/registrarte-menu.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@0,700;1,700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="registrarte-menu-div">
+      <div class="boddy-div1">
+        <b class="bienvenido-a-nuestra-aplicacio"
+          >Bienvenido a nuestra aplicacion web de donacion de alimentos, donde
+          podras saber que es lo que esta pasando en las comunidades afectadas y
+          podras ser parte de la ayuda</b
+        ><img
+          class="kisspng-food-bank-computer-ico-icon1"
+          alt=""
+          src="public/kisspngfoodbankcomputericonsfooddrivemaistasmaistobankaspiktogramanemokamavektorin5cd93d98eb79d1@2x.png"
+        /><img
+          class="kisspng-charitable-organizatio-icon1"
+          alt=""
+          src="public/kisspngcharitableorganizationnongovernmentalorganisatecology2pngiconsandgraphicspngrepofreep5cce7a24aba5381@2x.png"
+        />
+      </div>
+      <div class="boton-salir-div" id="botonSalirContainer">
+        <div class="rectangle-div9"></div>
+        <b class="salir-b">Salir</b>
+      </div>
+      <div class="menucard-div">
+        <div class="rectangle-div10"></div>
+        <div class="donar-comida-div" id="donarComidaContainer">
+          <div class="rectangle-div11"></div>
+          <b class="login-b">Login</b>
+        </div>
+        <div class="zonas-afectadas-div" id="zonasAfectadasContainer">
+          <div class="rectangle-div11"></div>
+          <b class="invitado-b"> Invitado</b>
+        </div>
+      </div>
+      <div class="group-div6">
+        <div class="header-div3"></div>
+        <img class="pngegg-1-23" alt="" src="public/pngegg-1-2@2x.png" /><i
+          class="food-community3"
+          >Food Community</i
+        >
+      </div>
+    </div>
+
+    <script>
+      var botonSalirContainer = document.getElementById("botonSalirContainer");
+      if (botonSalirContainer) {
+        botonSalirContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var donarComidaContainer = document.getElementById("donarComidaContainer");
+      if (donarComidaContainer) {
+        donarComidaContainer.addEventListener("click", function (e) {
+          window.location.href = "/loggin.html";//
+        });
+      }
+      
+      var zonasAfectadasContainer = document.getElementById(
+        "zonasAfectadasContainer"
+      );
+      if (zonasAfectadasContainer) {
+        zonasAfectadasContainer.addEventListener("click", function (e) {
+          // Please sync "Menu principal" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

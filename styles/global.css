@@ -1,0 +1,22 @@
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-inria-sans: "Inria Sans";
+
+  /* font sizes */
+  --font-size-xs: 32px;
+  --font-size-sm: 36px;
+  --font-size-base: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-brown: #950000;
+  --color-tan: #d7a86e;
+
+  /* border radiuses */
+  --br-sm: 15px;
+  --br-md: 50px;
+  --br-lg: 74px;
+}
+
