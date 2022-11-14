@@ -1,0 +1,118 @@
+body {
+    font-family: Nunito;
+}
+
+.header {
+    display: flex;
+    background-color: #950000;
+    padding: 5px 0 5px 100px;
+    height: 50px;
+    gap: 10px;
+}
+
+.title {
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contenedorFormulario {
+    background-color: #F85032;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%;
+}
+
+.tituloFormulario {
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.itemsFormulario {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.input {
+    display: flex;
+    padding: 5px 0;
+    gap: 20px;
+    height: 30px;
+    align-items: center;
+
+}
+
+.input p {
+    color: white;
+    width: 40%;
+}
+
+.inputConteiner {
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    height: 25px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.buttonRegistrar {
+    background-color: #1DCE00;
+    color: white;
+    width: 150px;
+    height: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.buttonCancelar {
+    background-color: #950000;
+    color: white;
+    width: 150px;
+    height: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+
+.footerMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgMenuPrincipal {
+    width: 150px;
+    height: 150px;
+
+}
