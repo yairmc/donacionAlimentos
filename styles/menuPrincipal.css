@@ -13,7 +13,7 @@ body {
 
 .main {
     display: flex;
-    padding: 50px 0;
+    padding: 50px 0 20px 0;
     gap: 50px;
 }
 
@@ -28,16 +28,15 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #F85032;
-    border-radius: 30px;
+    border-radius: 50px;
     padding: 30px;
     width: 100%;
-    height:100%;
     align-items: center;
     text-align: center;
     font-weight: bold;
     gap: 50px;
     font-size: 20px;
-    margin:0 20px;
+    margin: 0 20px;
 }
 
 .buttonMenu {
@@ -62,8 +61,10 @@ body {
     color: white;
     width: 214px;
     height: 79px;
-font-size: 32px;
-border-radius: 15px;
+    font-size: 32px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 
 .imgMenuPrincipal {
