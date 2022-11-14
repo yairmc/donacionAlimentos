@@ -1,0 +1,85 @@
+body {
+    font-family: Nunito;
+}
+
+.title {
+    background-color: #950000;
+    color: #fff;
+    font-size: 35px;
+    padding: 15px 0 0 100px;
+    height: 50px;
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 20px 0;
+    gap: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenedorMapa {
+    display: grid;
+    background-color: #F85032;
+    border-radius: 20px;
+    padding: 20px;
+    width:30%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    gap: 50px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.mapa{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.textCard{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.buttonMenu {
+    background-color: #D7A86E;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.footerMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSalir {
+    align-items: center;
+    background-color: #950000;
+    border-style: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.imgMenuPrincipal {
+    width: 150px;
+    height: 150px;
+}
