@@ -76,7 +76,23 @@ body {
 }
 
 .btnSalir {
+    text-decoration: none;
+    text-align: center;
     background-color: #ce0000;
+    border-style: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 32px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.btnDonar {
+    text-decoration: none;
+    background-color: #1DCE00;
+    text-align: center;
     border-style: none;
     color: white;
     width: 150px;

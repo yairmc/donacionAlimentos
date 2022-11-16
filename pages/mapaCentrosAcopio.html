@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil</title>
-  
-    <link rel="stylesheet" href="/styles/miPerfil.css" />
+    <title>Mapa Centros de acopio</title>
+
+    <link rel="stylesheet" href="../styles/mapaCentrosAcopio.css" />
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,700&display=swap" />
@@ -22,20 +22,24 @@
             <img src="../img/icono.png" alt="icono">
         </div>
     </header>
-    <div  class="contenedorMenu"  id="contenedorMenu">
-        <section>
-            <h2>Nombre:</h2>
-            <h2>Email:</h2>
-            <h2>Domicilio:</h2>
-            <h2>Ciudad:</h2>
-            <h2>Telefono:</h2>
-            <h2>Donaciones:</h2>
-        </section>
-    </div>
+    <main class="main">
+        <h1 class="titulo">Dona alimentos para personas que lo necesiten</h1>
+        <div class="contenedorMenu" id="contenedorMenu">
+            <a href="./infoCentroAcopio.html" class="texta">
+                <h2 class="text">Seleccione un centro de acopio del mapa</h2>
+            </a>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19455.859366712604!2d-109.95493304728855!3d27.465429831652138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentros%20acopio!5e0!3m2!1ses!2smx!4v1668459602475!5m2!1ses!2smx"
+                width="400" height="300" style="border: 0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
     <footer class="footerMenuPrincipal">
         <img class="imgMenuPrincipal" src="/img/manosComida.png" alt="imagen">
         <div>
-            <button class="btnSalir" id="btnSalir">Salir</button>
+            <a href="./menuPrincipal.html" class="btnSalir" id="btnSalir">Salir</a>
         </div>
         <img class="imgMenuPrincipal" src="/img/manosMundo.png" alt="imagen">
     </footer>

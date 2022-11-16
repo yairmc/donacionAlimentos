@@ -1,15 +1,14 @@
-html{
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
+html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
 body {
     position: relative;
     font-family: Nunito;
     display: grid;
     height: 100%;
-    grid-template-columns: repeat(3 1fr);
-
 }
 
 .header {
@@ -19,56 +18,44 @@ body {
     height: 50px;
     gap: 10px;
 }
+
 .title {
     color: #fff;
     font-size: 35px;
     font-style: italic;
 }
 
-
-.logo {
+.main {
     display: flex;
-    position: absolute;
-
+    justify-content: center;
 }
 
-.logo {
-    height: 70px;
-    left: 400px;
-
-}
-
-.nombre-empresa {
-    position: absolute;
-    top: 14px;
-    left: 109px;
-    display: inline-block;
-    font-size: 36px;
-    width: 345px;
-    height: 53px;
-}
 
 .contenedorMenu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     background-color: #F85032;
-    border-radius: 30px;
-    padding: 30px;
-    width: 700px;
-    height: 370px;
-    align-items: center;
-    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+    padding: 0 30px;;
+    height: 100%;
     font-weight: bold;
-    gap: 50px;
     font-size: 15px;
-    margin: 20px 300px;
+    color: white;
+    margin-top:10px;
 }
+
+.contenedorMenu h2{
+    margin:15px;
+}
+
+
 
 .footerMenuPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .btnSalir {
@@ -80,6 +67,14 @@ margin-top: 0px;
     height: 55px;
     font-size: 32px;
     border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.certificate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .imgMenuPrincipal {
@@ -88,30 +83,25 @@ margin-top: 0px;
 }
 
 .btnListaDonadores {
-    align-items: center;
-    background-color: #339101;
+    text-decoration: none;
+    background-color: #1DCE00;
     border-style: none;
     color: white;
-    width: 200px;
-    height: 50px;
-    font-size: 22px;
+    padding: 10px 10px;
+    font-size: 18px;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
+
 .btnCancelar {
+    text-decoration: none;
+    padding: 10px 30px;
     align-items: center;
-    background-color: red;
+    background-color: #950000;
     border-style: none;
     color: white;
-    width: 200px;
-    height: 50px;
-    font-size: 22px;
+    font-size: 32px;
     border-radius: 15px;
-    margin-left: 600px;
-}
-
-@media (max-width: 700px) {
-    header {
-        flex-direction: column;
-
-    }
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }

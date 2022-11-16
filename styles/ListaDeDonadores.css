@@ -1,15 +1,14 @@
-html{
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
+html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
 body {
     position: relative;
     font-family: Nunito;
     display: grid;
     height: 100%;
-    grid-template-columns: repeat(3 1fr);
-
 }
 
 .header {
@@ -19,56 +18,47 @@ body {
     height: 50px;
     gap: 10px;
 }
+
 .title {
     color: #fff;
     font-size: 35px;
     font-style: italic;
 }
 
-
-.logo {
+.main {
     display: flex;
-    position: absolute;
-
-}
-
-.logo {
-    height: 70px;
-    left: 400px;
-
-}
-
-.nombre-empresa {
-    position: absolute;
-    top: 14px;
-    left: 109px;
-    display: inline-block;
-    font-size: 36px;
-    width: 345px;
-    height: 53px;
+    justify-content: center;
+    height: 100%;
+    padding-top: 20px;
 }
 
 .contenedorMenu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 30px;
     background-color: #F85032;
     border-radius: 30px;
     padding: 30px;
-    width: 700px;
-    height: 370px;
+    width: 50%;
+    height: 100%;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    gap: 50px;
     font-size: 15px;
-    margin: 20px 300px;
+}
+
+.btnAceptCancel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .footerMenuPrincipal {
     display: flex;
     justify-content: space-between;
     align-items: center;
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .btnSalir {
@@ -80,45 +70,43 @@ margin-top: 0px;
     height: 55px;
     font-size: 32px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .imgMenuPrincipal {
     width: 250px;
     height: 250px;
 }
-.im{
-background-color: rgba(255, 255, 255, 0.248);
-border-radius: 15px;
-width: 700px;
-text-align: left;
-color: white;
+
+.im {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.248);
+    border-radius: 15px;
+    color: white;
+    width:100%;
 }
-.txtlista{
+
+.txtlista {
     margin-top: 0%;
     color: white;
     text-align: center;
 }
-.btnListaDonadores {
-    align-items: center;
-    background-color: #339101;
-    border-style: none;
-    color: white;
-    width: 200px;
-    height: 50px;
-    font-size: 22px;
-    border-radius: 15px;
-}
+
 .btnCancelar {
+    text-decoration: none;
     align-items: center;
     background-color: red;
     border-style: none;
     color: white;
-    width: 200px;
-    height: 50px;
+    padding: 15px 55px;
     font-size: 22px;
     border-radius: 15px;
     margin-left: 600px;
+    cursor: pointer;
+
 }
+
 .btnCancelar2 {
     align-items: center;
     background-color: red;
@@ -128,8 +116,10 @@ color: white;
     height: 50px;
     font-size: 22px;
     border-radius: 15px;
-    margin-left: 500px;
+    cursor: pointer;
+
 }
+
 .btnAceptar {
     align-items: center;
     background-color: rgb(2, 103, 17);
@@ -139,12 +129,6 @@ color: white;
     height: 50px;
     font-size: 22px;
     border-radius: 15px;
-    margin-left: 500px;
-}
+    cursor: pointer;
 
-@media (max-width: 700px) {
-    header {
-        flex-direction: column;
-
-    }
 }

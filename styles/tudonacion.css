@@ -50,7 +50,7 @@ body {
 
 .cuadrado {
     display: flex;
-    height: 50px;
+    height: 40px;
     width: 500px;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +94,8 @@ a {
     margin: 30px 170px;
 
 }
-b{
+.btnSalir{
+    text-decoration: none;
     display: block;
     align-items: center;
     text-align: center;
