@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Atributos agregados a el frame  -->
     <link rel="stylesheet" href="../styles/menuPrincipal.css">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet"
@@ -12,35 +14,41 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@0,700;1,700&display=swap" />
 
+        <!-- Titulo de la Ventana  -->
     <title>Menu Principal</title>
 </head>
 
+<!-- Contenido Principal  -->
 <body>
+
+    <!-- Header -->
     <div class="header">
         <header class="title">Food Community</header>
         <img src="../img/icono.png" alt="icono">
     </div>
+
+    <!-- Main  -->
     <main class="main">
 
         <div class="text">Bienvenido a nuestra aplicacion web de donacion de alimentos, donde podras saber que es lo que
             esta pasando
             en las comunidades afectadas y podras ser parte de la ayuda
         </div>
-       
+
         <div class="contenedorMenu" id="contenedorMenu">
-            <div class="buttonMenu" id="donarComida">DonarComida</div>
-            <div class="buttonMenu" id="altaDonador">Dar de alta como donador</div>
-            <div class="buttonMenu" id="zonasAfectadas">Zonas Afectadas</div>
-            <div class="buttonMenu" id="altaCentro">Dar de Alta Como Centro</div>
-            <div class="buttonMenu" id="miPerfil">Mi Perfil</div>
-            <div class="buttonMenu" id="paginaLogros">Logros</div>
+            <a class="buttonMenu" id="donarComida">DonarComida</a>
+            <a href="./registrarDonador.html" class="buttonMenu" id="altaDonador">Dar de alta como donador</a>
+            <a  class="buttonMenu" id="zonasAfectadas">Zonas Afectadas</a>
+            <a href="./registrarCentro.html" class="buttonMenu" id="altaCentro">Dar de Alta Como Centro</a>
+            <a class="buttonMenu" id="miPerfil">Mi Perfil</a>
+            <a class="buttonMenu" id="paginaLogros">Logros</a>
         </div>
 
     </main>
     <footer class="footerMenuPrincipal">
         <img class="imgMenuPrincipal" src="../img/manosComida.png" alt="imagen">
         <div>
-            <button class="btnSalir" id="btnSalir">Salir</button>
+            <a href="./loggin.html" class="btnSalir" id="btnSalir">Salir</a>
         </div>
         <img class="imgMenuPrincipal" src="../img/manosMundo.png" alt="imagen">
     </footer>

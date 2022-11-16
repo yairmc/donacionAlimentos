@@ -9,14 +9,13 @@ body {
   font-family: Nunito;
   display: grid;
   height: 100%;
-  grid-template-columns: repeat(3 1fr);
 }
 
 .header {
   display: flex;
   background-color: #950000;
   padding: 5px 0 5px 100px;
-  height: 50px;
+  height: 30%;
   gap: 10px;
 }
 
@@ -29,8 +28,9 @@ body {
 
 .main {
   display: flex;
-  padding: 50px 0 20px 0;
+  padding: 50px 0;
   gap: 50px;
+  height: 100%;
 }
 
 .text {
@@ -58,6 +58,8 @@ body {
 .buttonMenu {
   background-color: #D7A86E;
   border-radius: 10px;
+  text-decoration: none;
+  color:black;
   padding: 10px;
   width:60%;
   font-size: 30px;
@@ -74,11 +76,13 @@ body {
 
 .btnSalir {
   align-items: center;
+  text-align: center;
+  text-decoration: none;
   background-color: #950000;
   border-style: none;
   color: white;
-  width: 214px;
-  height: 79px;
+  width: 150px;
+  height: 40px;
   font-size: 32px;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);

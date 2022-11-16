@@ -1,7 +1,7 @@
-html {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+html{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 body {
@@ -45,21 +45,22 @@ body {
     gap: 10px;
 }
 
-.imgContent {
-    display: flex;
+.imgContent{
+    display:flex;
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
     font-weight: bold;
 }
 
-.imgContent p {
-    width: 50%
+.imgContent p{
+    width:50%
 }
 
-.imgContent img {
-    width: 250px;
-    height: 190px;
+.imgContent img{
+    width:370px;
+    height:260px;
+    padding: 10px;
 }
 
 .footerMenuPrincipal {
@@ -67,7 +68,7 @@ body {
     justify-content: space-between;
 }
 
-.imgbutton {
+.imgbutton{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,10 +76,8 @@ body {
 }
 
 .btnSalir {
-    background-color: #1DCE00;
+    background-color: #ce0000;
     border-style: none;
-    text-decoration: none;
-    text-align: center;
     color: white;
     width: 150px;
     height: 40px;
@@ -88,7 +87,7 @@ body {
     cursor: pointer;
 }
 
-.imgFooter {
+.imgFooter{
     width: 200px;
     height: 150px;
 }
@@ -96,5 +95,4 @@ body {
 .imgMenuPrincipal {
     width: 250px;
     height: 250px;
-
 }

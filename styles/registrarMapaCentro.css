@@ -72,12 +72,12 @@ body {
 }
 
 .btnSalir {
+    text-decoration: none;
     align-items: center;
     background-color: #950000;
     border-style: none;
     color: white;
-    width: 150px;
-    height: 50px;
+    padding: 10px 40px;
     font-size: 32px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);

@@ -1,7 +1,7 @@
-html{
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
+html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -94,6 +94,7 @@ body {
 }
 
 .buttonRegistrar {
+    text-decoration: none;
     background-color: #1DCE00;
     color: white;
     width: 150px;
@@ -106,6 +107,7 @@ body {
 }
 
 .buttonCancelar {
+    text-decoration: none;
     background-color: #950000;
     color: white;
     width: 150px;

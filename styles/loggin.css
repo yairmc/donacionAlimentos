@@ -89,18 +89,44 @@ body {
 
 .options {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
-    color: white;
+    gap:30px ;
 }
 
 .buttonIngresar {
-    background-color: #D7A86E;
+    text-decoration: none;
+    color: white;
+    background-color:#1DCE00 ;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 20px;
     font-weight: bold;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 
+.buttonRegistrarme {
+    text-decoration: none;
+    color: black;
+    background-color:#D7A86E ;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.buttonSalir {
+    text-decoration: none;
+    color: white;
+    background-color:#950000 ;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
