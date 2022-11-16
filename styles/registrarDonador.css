@@ -1,6 +1,17 @@
-body {
-    font-family: Nunito;
+html{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
+
+body {
+    position: relative;
+    font-family: Nunito;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3 1fr);
+}
+
 
 .header {
     display: flex;
@@ -23,9 +34,9 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .text {
@@ -45,6 +56,7 @@ body {
     align-items: center;
     color: white;
     font-size: 25px;
+    margin: 5px;
 }
 
 .itemsFormulario {
@@ -112,7 +124,7 @@ body {
 }
 
 .imgMenuPrincipal {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 
 }

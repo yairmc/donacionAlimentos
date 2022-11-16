@@ -1,15 +1,31 @@
+html{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
 body {
+    position: relative;
     font-family: Nunito;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3 1fr);
+}
+
+.header {
+    display: flex;
+    background-color: #950000;
+    padding: 5px 0 5px 100px;
+    height: 50px;
+    gap: 10px;
 }
 
 .title {
-    background-color: #950000;
     color: #fff;
     font-size: 35px;
-    padding: 15px 0 0 100px;
-    height: 50px;
     font-style: italic;
 }
+
 
 .main {
     display: flex;
@@ -20,8 +36,14 @@ body {
 .text {
     padding: 0 40px;
     width: 40%;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+    text-align: center;
+}
+
+.foodDrive{
+    width:400px;
+    height: 400px;
 }
 
 .contenedorMenu {
@@ -30,7 +52,7 @@ body {
     background-color: #F85032;
     border-radius: 50px;
     padding: 30px;
-    width: 100%;
+    width: auto;
     align-items: center;
     text-align: center;
     font-weight: bold;
@@ -42,10 +64,11 @@ body {
 .buttonMenu {
     background-color: #D7A86E;
     border-radius: 10px;
-    width: auto;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 
 .footerMenuPrincipal {
@@ -71,3 +94,4 @@ body {
     width: 250px;
     height: 250px;
 }
+

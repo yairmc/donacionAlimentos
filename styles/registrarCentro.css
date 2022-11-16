@@ -1,7 +1,15 @@
-
+html{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
 
 body {
+    position: relative;
     font-family: Nunito;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3 1fr);
 }
 
 .header {
@@ -25,7 +33,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -45,7 +53,8 @@ body {
 .tituloFormulario {
     align-items: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 5px;
 }
 
 .itemsFormulario {
@@ -115,14 +124,16 @@ body {
 }
 
 .mapa {
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 130px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .camara{
     width: 70px;
     height: 70px;
+    cursor: pointer;
 }
 
 .footerMenuPrincipal {
@@ -131,7 +142,7 @@ body {
 }
 
 .imgMenuPrincipal {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 
 }
