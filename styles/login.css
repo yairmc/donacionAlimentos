@@ -1,0 +1,163 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Nunito;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.headerContent {
+    display: flex;
+    background-color: #950000;
+    height: 10%;
+    gap: 30px;
+}
+
+.title {
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Login Container  */
+
+.conteinerLogin {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+}
+
+.textLogin {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+}
+
+.textLogin span {
+    font-weight: bold;
+    font-size: 45px
+}
+
+.loginFormContent {
+    background-color: #F85032;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
+    padding-bottom: 20px;
+}
+
+.loginFormContent img {
+    width: 20%;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    align-items: center;
+    font-size: 40px;
+}
+
+.loginForm p {
+    text-align: end;
+    width: 30%;
+}
+
+.inputLogin {
+    border-style: none;
+    width: 60%;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnIngresar {
+    border-style: none;
+    background-color: #1DCE00;
+    color: white;
+    font-size: 40px;
+    width: 35%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* SignUp Container  */
+.conteinerSignup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signupFormContent {
+    background-color: #F85032;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
+    padding-bottom: 20px;
+}
+
+.signupFormContent img{
+    width: auto;
+
+}
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.signupForm div{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 40px;
+}
+
+.signupForm p {
+    text-align: end;
+    width: 30%;
+}
+
+.btnSignup{
+    border-style: none;
+    background-color: #1DCE00;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0 20px ;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+}

@@ -1,29 +1,26 @@
-html{
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
-}
-
 body {
     position: relative;
     font-family: Nunito;
     display: grid;
-    height: 100%;
-    grid-template-columns: repeat(3 1fr);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.header {
+.headerContent {
     display: flex;
     background-color: #950000;
-    padding: 5px 0 5px 100px;
-    height: 50px;
-    gap: 10px;
+    height: 10%;
+    gap: 30px;
+    height: 100%;
 }
 
 .title {
     color: #fff;
     font-size: 35px;
     font-style: italic;
+    padding-left: 50px;
 }
 
 
@@ -38,7 +35,7 @@ body {
 }
 
 .text {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -61,20 +58,31 @@ body {
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 20px;
+}
+
+.inputUser{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+.inputCentro{
+    display: flex;
+    flex-direction: column;
 }
 
 .input {
     display: flex;
     padding: 5px 0;
-    gap: 20px;
+    gap: 10px;
     height: 30px;
     align-items: center;
-
 }
 
 .input p {
     color: white;
-    width: 40%;
+    width: 60%;
 }
 
 .inputConteiner {
@@ -95,7 +103,6 @@ body {
     background-color: #1DCE00;
     color: white;
     width: 150px;
-    height: 100%;
     font-size: 24px;
     border-radius: 10px;
     padding: 10px;
@@ -108,7 +115,6 @@ body {
     background-color: #950000;
     color: white;
     width: 150px;
-    height: 100%;
     font-size: 24px;
     border-radius: 10px;
     padding: 10px;
@@ -116,12 +122,13 @@ body {
     cursor: pointer;
 }
 
+
 .subContenedorFM p {
     color: white;
     font-weight: normal;
     padding: 0;
     bottom: 0;
-    font-size: 15px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 

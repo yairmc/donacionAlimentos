@@ -1,65 +1,88 @@
-html{
-    height:100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
-}
 
 body {
     position: relative;
     font-family: Nunito;
-    display: grid;
-    height: 100%;
-    grid-template-columns: repeat(3 1fr);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.header {
+.headerContent {
     display: flex;
     background-color: #950000;
-    padding: 5px 0 5px 100px;
-    height: 50px;
-    gap: 10px;
+    height: 10%;
+    gap: 30px;
+    height: 100%;
 }
 
 .title {
     color: #fff;
     font-size: 35px;
     font-style: italic;
+    padding-left: 50px;
 }
+
 
 
 .main {
     display: flex;
-    padding: 50px 0 20px 0;
-    gap: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
-.text {
-    padding: 0 40px;
-    width: 40%;
+
+.perfil {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    padding: 10px 50px;
     font-size: 40px;
+    background-color: #950000;
+    color: white;
+    border-radius: 15px;
     font-weight: bold;
-    text-align: center;
+    width: auto;
+    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
 }
 
-.foodDrive{
-    width:400px;
-    height: 400px;
+.perfil p{
+    margin:10px;
 }
 
 .contenedorMenu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #F85032;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 30px;
-    width: auto;
+    width: 50%;
     align-items: center;
     text-align: center;
     font-weight: bold;
     gap: 50px;
-    font-size: 20px;
     margin: 0 20px;
+    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
 }
+
+
+.subContentMenu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 80%;
+}
+
+.subContentMenu div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 
 .buttonMenu {
     text-decoration: none;
@@ -67,10 +90,25 @@ body {
     background-color: #D7A86E;
     border-radius: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 35px;
+    width: auto;
     font-weight: bold;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
     cursor: pointer;
+}
+
+.buttonMenuZA {
+    width: auto;
+    text-decoration: none;
+    color:black;
+    background-color: #D7A86E;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    width: 60%;
 }
 
 .footerMenuPrincipal {
@@ -81,7 +119,7 @@ body {
 
 .btnSalir {
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 15px 60px;
     align-items: center;
     background-color: #950000;
     border-style: none;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/registrarCentro.css">
+    <link rel="stylesheet" href="../styles/registrarCentroUsuario.css">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,700&display=swap" />
@@ -16,21 +16,25 @@
 </head>
 
 <body>
-    <div class="header">
-        <header class="title">Food Community</header>
-        <img src="../img/icono.png" alt="icono">
-    </div>
+    <!-- Header  -->
+    <header>
+        <div class="headerContent">
+            <p class="title">Food Community</p>
+            <img src="../img/icono.png" alt="icono">
+        </div>
+    </header>
     <main class="main">
 
-        <div class="text">Registro para centros de acopio</div>
+        <div class="text">Registrate como Centro de Acopio o como donador</div>
 
         <div class="contenedorFormulario" id="contenedorFormulario">
-            <p class="tituloFormulario">Formulario de Registro</p>
+
 
             <div class="itemsFormulario">
-                <div>
+                <div class="inputUser">
+                    <p class="tituloFormulario">Formulario de Registro</p>
                     <div class="input">
-                        <p>Nombre:</p>
+                        <p>Nombre centro o Donador:</p>
                         <input class="inputConteiner" type="text">
                     </div>
                     <div class="input">
@@ -46,26 +50,28 @@
                         <input class="inputConteiner" type="text">
                     </div>
                     <div class="input">
-                        <p>Horario:</p>
-                        <input class="inputConteiner" type="text">
-                    </div>
-                    <div class="input">
                         <p>Telefono:</p>
                         <input class="inputConteiner" type="number">
                     </div>
-
                     <div class="buttonContainer">
                         <a href="./menuPrincipal.html" class="buttonRegistrar" id="buttonRegistrar">Registrar</a>
                         <a href="./menuPrincipal.html" class="buttonCancelar" id="buttonCancelar">Cancelar</a>
                     </div>
                 </div>
 
-                <div class="subContenedorFM">
-
-                    <img class="camara" src="../img/camara.png" alt="camara">
+                <div class="inputCentro">
+                    <p class="tituloFormulario">Si eres Centro de acopio llena estos campos</p>
+                    <div class="input">
+                        <p>Horario:</p>
+                        <input class="inputConteiner" type="text">
+                    </div>
+                    <div class="subContenedorFM">
+                         <img class="camara" src="../img/camara.png" alt="camara">
                     <p>Certificado de donacion</p>
                     <p>Toca para ubicarte en el mapa</p>
                     <a href="./registrarMapaCentro.html"><img class="mapa" src="../img/mapa.jpg" alt="mapa"></a>
+                    </div>
+                   
                 </div>
             </div>
         </div>

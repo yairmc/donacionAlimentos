@@ -14,34 +14,47 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@0,700;1,700&display=swap" />
 
-        <!-- Titulo de la Ventana  -->
+    <!-- Titulo de la Ventana  -->
     <title>Menu Principal</title>
 </head>
 
 <!-- Contenido Principal  -->
+
 <body>
 
-    <!-- Header -->
-    <div class="header">
-        <header class="title">Food Community</header>
-        <img src="../img/icono.png" alt="icono">
-    </div>
+    <!-- Header  -->
+    <header>
+        <div class="headerContent">
+            <p class="title">Food Community</p>
+            <img src="../img/icono.png" alt="icono">
+        </div>
+    </header>
 
     <!-- Main  -->
     <main class="main">
 
-        <div class="text">Bienvenido a nuestra aplicacion web de donacion de alimentos, donde podras saber que es lo que
-            esta pasando
-            en las comunidades afectadas y podras ser parte de la ayuda
+        <div class="perfil">
+            <p>Nombre: Yair Martinez</p>
+            <p>Email: yairmc666@gmail.com</p>
+            <p>Telefono: 6444206948</p>
+            <p>Col. Providencia</p>
+            <p>Ciudad: Obregon Sonora</p>
+            <p>Donaciones: 24</p>
         </div>
 
         <div class="contenedorMenu" id="contenedorMenu">
-            <a href="./mapaCentrosAcopio.html" class="buttonMenu" id="donarComida">DonarComida</a>
-            <a href="./registrarDonador.html" class="buttonMenu" id="altaDonador">Dar de alta como donador</a>
-            <a href="./mapaZonasAfectadas.html"  class="buttonMenu" id="zonasAfectadas">Zonas Afectadas</a>
-            <a href="./registrarCentro.html" class="buttonMenu" id="altaCentro">Dar de Alta Como Centro</a>
-            <a href="./miPerfil.html" class="buttonMenu" id="miPerfil">Mi Perfil</a>
-            <a class="buttonMenu" id="paginaLogros">Logros</a>
+            <div class="subContentMenu">
+                <div>
+                    <a href="./mapaCentrosAcopio.html" class="buttonMenu" id="donarComida">DonarComida</a>
+                    <a href="./mapaZonasAfectadas.html" class="buttonMenu" id="zonasAfectadas">Zonas Afectadas</a>
+                </div>
+                <a href="#" class="buttonMenuZA" id="zonasAfectadas">Dar de alta como donador o como Centro de
+                    Acopio</a>
+
+            </div>
+            <a href="#" class="buttonMenu" id="zonasAfectadas">Lista de donadores / Donaciones</a>
+
+
         </div>
 
     </main>
