@@ -29,13 +29,13 @@ const fetchLogin = async (e) => {
                 username: username.value,
                 password: password.value
             }
-            const response = await fetch("http://localhost:5001/login", {
+            const response = await fetch("https://fcback-production.up.railway.app/login", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(credentials),
             })
             const data = await response.json();
-            if (data === 'authenticate') location.href = "/pages/menuPrincipal.html"
+            if (data === 'authenticate') location.href = "menuPrincipal.html"
             else {
                 alert(data);
                 location.reload();
@@ -70,7 +70,7 @@ const fetchSignUp = async (e) => {
                 password: newPassword.value
             }
 
-            const response = await fetch('http://localhost:5001/signUp', {
+            const response = await fetch('https://fcback-production.up.railway.app/signUp', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(credentials)
