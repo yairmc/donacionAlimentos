@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    background-color: #e6e6e6;
 }
 
 body {
@@ -57,7 +58,7 @@ header {
 
 .loginFormContent {
     background-color: #F85032;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     justify-content: space-around;
     box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
@@ -80,7 +81,7 @@ header {
     width: 100%;
     color: white;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .loginForm p {
@@ -120,11 +121,11 @@ header {
 
 .signupFormContent {
     background-color: #F85032;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     justify-content: space-around;
     box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .signupFormContent img{
@@ -143,7 +144,7 @@ header {
     justify-content: space-around;
     color: white;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .signupForm p {
