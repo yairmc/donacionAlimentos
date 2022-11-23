@@ -128,10 +128,11 @@ header {
     padding-bottom: 10px;
 }
 
-.signupFormContent img{
+.signupFormContent img {
     width: auto;
 
 }
+
 .signupForm {
     display: flex;
     flex-direction: column;
@@ -139,7 +140,7 @@ header {
 
 }
 
-.signupForm div{
+.signupForm div {
     display: flex;
     justify-content: space-around;
     color: white;
@@ -152,13 +153,135 @@ header {
     width: 30%;
 }
 
-.btnSignup{
+.btnSignup {
     border-style: none;
     background-color: #1DCE00;
     color: white;
     font-size: 40px;
     border-radius: 10px;
-    padding: 0 20px ;
+    padding: 0 20px;
     cursor: pointer;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+@media (max-width: 440px) {
+    body {
+        font-family: Nunito;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main img {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .main {
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .headerContent {
+        align-items: center;
+        height: 30px;
+    }
+
+    .headerContent img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* login responsive  */
+    .textLogin,
+    .textLogin span {
+        font-size: 15px;
+        width: 30%;
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .conteinerLogin {
+        width: 90%;
+        height: 50%;
+    }
+
+    .loginForm div {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .loginFormContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .loginFormContent img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .inputLogin {
+        border-style: none;
+        width: 50%;
+    }
+
+    .btnContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnIngresar {
+        font-size: 15px;
+        width: 35%;
+        border-radius: 5px;
+    }
+
+    /* signUp responsive  */
+    .conteinerSignup {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .signupFormContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .signupFormContent img {
+        width: 100px;
+
+    }
+
+    .signupForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .signupForm div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .btnSignup {
+        font-size: 15px;
+        width: 100%;
+        border-radius: 5px;
+    }
 }
