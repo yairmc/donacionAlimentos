@@ -1,6 +1,7 @@
+
 body {
     font-family: Nunito;
-    height:100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,6 +13,7 @@ body {
     height: 100%;
     gap: 30px;
 }
+
 
 .title {
     color: #fff;
@@ -40,7 +42,7 @@ body {
     height: auto;
 }
 
-.imgContent img{
+.imgContent img {
     width: 20%;
     height: auto;
 }
@@ -84,4 +86,65 @@ body {
     width: 250px;
     height: 250px;
 
+}
+
+@media (max-width: 440px) {
+    body {
+        font-family: Nunito;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .main img {
+        width: fit-content;
+        height: fit-content;
+    }
+    .main{
+        justify-content: center;
+    }
+    .title {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .headerContent {
+        align-items: center;
+        height: 30px;
+    }
+
+    .headerContent img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .imgContent img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .imgContent {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .imgFooter {
+        width: fit-content;
+        height: 50px;
+    }
+    
+    .imgMenuPrincipal {
+        width: 80px;
+        height: 80px;
+    
+    }
+    .btnSalir {
+        width: 60px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+    }
 }
