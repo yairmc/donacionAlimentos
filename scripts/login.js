@@ -2,6 +2,7 @@
 let loginForm = document.querySelector("#loginForm");
 let signUpForm = document.querySelector('#signUpForm');
 
+
 document.addEventListener("DOMContentLoaded", () => {
     addListeners();
 })
