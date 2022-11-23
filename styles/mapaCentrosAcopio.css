@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+body {
+    font-family: Nunito;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerContent {
+    display: flex;
+    background-color: #950000;
+    height: 100%;
+    gap: 30px;
+}
+
+.title {
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+.text{
+    font-size:30px;
+}
+.texta{
+    text-decoration: none;
+    color: white;
+}
+.titulo{
+    font-size: 30px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130%;
+}
+.contenedorMenu {
+    background-color: #F85032;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50%;
+    height:100%;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.contenedorMenu iFrame{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.footerMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.btnSalir {
+    align-items: center;
+    background-color: #950000;
+    text-decoration: none;
+    color: white;
+    padding:10px 30px;
+    font-size: 26px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.imgMenuPrincipal {
+    width: 250px;
+    height: 250px;
+}

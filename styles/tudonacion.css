@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #e6e6e6;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+body {
+    font-family: Nunito;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerContent {
+    display: flex;
+    background-color: #950000;
+    height: 100%;
+    gap: 30px;
+}
+
+.title {
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombreZona{
+    font-size:50px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    height: 60%;
+    align-items: center;
+}
+
+.fotos img {
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.donacion {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cajaComida {
+    width: 60%;
+}
+
+.contenedorMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #F85032;
+    border-radius: 20px;
+    width: 40%;
+    padding: 0 30px;
+    ;
+    height: 170px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 190px;
+}
+
+.contenedorMenu h2 {
+    margin: 15px;
+}
+
+.contenedorMenu .botones2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnDonar {
+    background-color: #22ff00d8;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnSalir {
+    background-color: #e30606;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    text-align: center;
+}
+
+.footerMenuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgMenuPrincipal {
+    width: 200px;
+    height: 170px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
