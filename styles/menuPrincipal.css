@@ -135,3 +135,79 @@ body {
     height: 250px;
 }
 
+@media (max-width: 440px) {
+    .title {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .headerContent {
+        align-items: center;
+        height: 30px;
+    }
+
+    .headerContent img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .perfil {
+        padding: 5px;;
+        font-size: 15px;
+        margin: 10px 0;
+        width: 90%;
+    }
+    
+    .perfil p{
+        margin:5px;
+    }
+
+    .contenedorMenu {
+        border-radius: 15px;
+        padding: 5px;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .subContentMenu{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .subContentMenu div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .buttonMenu {
+        width: 80%;
+        font-size: 15px;
+    }
+    
+    .buttonMenuZA {
+        width: auto;
+        text-decoration: none;
+        color:black;
+        background-color: #D7A86E;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        width: 80%;
+    }
+    
+    .imgFooter {
+        width: fit-content;
+        height: 100px;
+    }
+
+    .btnSalir {
+        padding: 5px 20px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}

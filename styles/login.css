@@ -166,13 +166,7 @@ header {
 
 
 @media (max-width: 440px) {
-    body {
-        font-family: Nunito;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+
 
     .main img {
         width: fit-content;
