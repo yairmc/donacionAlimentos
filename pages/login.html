@@ -16,63 +16,32 @@
 </head>
 
 <body>
-    <header>
-        <div class="headerContent">
-            <p class="title">Food Community</p>
-            <img src="../img/icono.png" alt="icono">
+
+    <div class="conteiner">
+        <img src="../img/iconBreakfast.png" alt="icono" class="iconBreakfast">
+        <div class="formContent">
+            <form class="login" id="loginForm">
+                <div class="inputContainer">
+                    <p>Usuario:</p>
+                    <input class="input" type="text" id="username" >
+                </div>
+                <div class="inputContainer">
+                    <p>Contraseña:</p>
+                    <input class="input" type="password" id="password" >
+                </div>
+
+                <div class="buttonContainer">
+                    <input type="submit" value="Ingresar" class="buttonLogin">
+                    <input type="submit" value="Cancelar" class="buttonCancelar">
+                </div>
+
+                <a class="buttonSignUp" href="./signUp.html">Registrate</a>
+            </form>
         </div>
-    </header>
-    <main class="content">
-
-        <div class="conteinerLogin">
-            <p class="textLogin"> <span>Inicio de sesión </span> Por favor inicia tu sesión para continuar</p>
-            <div class="loginFormContent">
-                <img src="../img/iconG.png" alt="icono">
-                <form class="loginForm" id="loginForm">
-                    <div>
-                        <p>Usuario:</p>
-                        <input class="inputLogin" type="text" id="username" placeholder="Username...">
-                    </div>
-                    <div>
-                        <p>Contraseña:</p>
-                        <input class="inputLogin" type="password" id="password" placeholder="Password...">
-                    </div>
-                    <div class="btnContainer">
-                        <input type="submit" value="Ingresar" class="btnIngresar">
-                    </div>
-
-                </form>
-            </div>
-        </div>
-
-        <div class="conteinerSignup">
-
-            <div class="signupFormContent">
-                <img src="../img/iconUser.png" alt="">
-                <form class="signupForm" id="signUpForm">
-                    <div>
-                        <p>Usuario:</p>
-                        <input class="inputLogin" type="text" id="newUsername" placeholder="Username...">
-                    </div>
-                    <div>
-                        <p>Contraseña:</p>
-                        <input class="inputLogin" type="password" id="newPassword" placeholder="password...">
-
-                    </div>
-                    <div>
-                        <p>Repite la contraseña:</p>
-                        <input class="inputLogin" type="password" id="repeatPassword" placeholder="password...">
-                    </div>
-                    <div class="btnContainer">
-                        <button class="btnSignup">Registrarte</button>
-                    </div>
-                </form>
-            </div>
-
-            <p class="textLogin"> <span>Registrate </span>Si no tienes perfil, registrate para poder saber de ti </p>
+    </div>
 
 
-        </div>
+    </div>
     </main>
 
     <script src="../scripts/login.js"></script>

@@ -1,281 +1,106 @@
-html {
-    height: 100%;
-    width: 100%;
-    background-color: #e6e6e6;
-}
 
 body {
     font-family: Nunito;
-}
-
-header {
-    width: 100%;
-    height: 100%;
-}
-
-.headerContent {
+    background-color: black;
+    background-image: url('../img/back-login.png');
+    background-repeat: no-repeat;
+    background-position:start;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    background-color: #950000;
-    height: 10%;
-    gap: 30px;
+    align-items: center;
+    justify-content: end;
 }
 
-.title {
-    color: #fff;
-    font-size: 35px;
-    font-style: italic;
-    padding-left: 50px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 /* Login Container  */
 
-.conteinerLogin {
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.iconBreakfast{
+    display: flex;
+    justify-content: center;
+}
+
+.formContent {
+    background-color: #0D215E;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
+    padding:20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
     width: 100%;
-    height: 50%;
-    margin-top: 100px;
+    color: white;
+    font-size: 30px;
 }
 
-.textLogin {
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 15%;
+.login p {
+    text-align: end;
+    width: 30%;
+    font-size: 30px;
 }
 
-.textLogin span {
-    font-weight: bold;
-    font-size: 45px
+.input {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    background-color:#1E5FCE;
 }
 
-.loginFormContent {
-    background-color: #F85032;
-    border-radius: 25px;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
-    padding-bottom: 20px;
-}
-
-.loginFormContent img {
-    width: 20%;
-}
-
-.loginForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.loginForm div {
+.buttonContainer{
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    color: white;
     align-items: center;
-    font-size: 30px;
 }
 
-.loginForm p {
-    text-align: end;
-    width: 30%;
-}
-
-.inputLogin {
+.buttonLogin {
     border-style: none;
-    width: 60%;
-    border-radius: 10px;
-    outline: none;
-
-}
-
-.btnContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.btnIngresar {
-    border-style: none;
-    background-color: #1DCE00;
+    background-color: #1E8CD8;
     color: white;
-    font-size: 40px;
-    width: 35%;
-    border-radius: 10px;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* SignUp Container  */
-.conteinerSignup {
-    display: flex;
-    justify-content: space-around;
-}
-
-.signupFormContent {
-    background-color: #F85032;
-    border-radius: 25px;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 15px 15px 5px 2px rgba(0, 0, 0, 0.4);
-    padding-bottom: 10px;
-}
-
-.signupFormContent img {
-    width: auto;
-
-}
-
-.signupForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.signupForm div {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    align-items: center;
-    font-size: 30px;
-}
-
-.signupForm p {
-    text-align: end;
-    width: 30%;
-}
-
-.btnSignup {
+.buttonCancelar{
     border-style: none;
-    background-color: #1DCE00;
+    background-color: black;
     color: white;
-    font-size: 40px;
-    border-radius: 10px;
-    padding: 0 20px;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
+.buttonSignUp{
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 40px;
+}
 
 @media (max-width: 440px) {
 
-
-    .main img {
-        width: fit-content;
-        height: fit-content;
-    }
-
-    .main {
-        justify-content: center;
-    }
-
-    .title {
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    .headerContent {
-        align-items: center;
-        height: 30px;
-    }
-
-    .headerContent img {
-        width: 30px;
-        height: 30px;
-    }
-
-    /* login responsive  */
-    .textLogin,
-    .textLogin span {
-        font-size: 15px;
-        width: 30%;
-    }
-
-    .content {
-        align-items: center;
-    }
-
-    .conteinerLogin {
-        width: 90%;
-        height: 50%;
-    }
-
-    .loginForm div {
-        width: 100%;
-        font-size: 15px;
-    }
-
-    .loginFormContent {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-    }
-
-    .loginFormContent img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .inputLogin {
-        border-style: none;
-        width: 50%;
-    }
-
-    .btnContainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .btnIngresar {
-        font-size: 15px;
-        width: 35%;
-        border-radius: 5px;
-    }
-
-    /* signUp responsive  */
-    .conteinerSignup {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .signupFormContent {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-    }
-
-    .signupFormContent img {
-        width: 100px;
-
-    }
-
-    .signupForm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .signupForm div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 15px;
-    }
-
-    .btnSignup {
-        font-size: 15px;
-        width: 100%;
-        border-radius: 5px;
-    }
 }
