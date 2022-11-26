@@ -1,0 +1,87 @@
+
+body {
+    font-family: Nunito;
+    background-color: black;
+    background-image: url('../img/back-infoCentro.png');
+    background-repeat: no-repeat;
+    background-position:start;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.informationCentro {
+    padding:0 30px;
+    background-color: #0D215E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    font-size: 25px;
+}
+
+.informationCentro p {
+    margin: 0;
+}
+
+.nameCenter {
+    font-size: 40px;
+}
+
+.inputDonacion {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    background-color: #1E5FCE;
+    height: 100px;
+    font-size: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonMensaje,
+.buttonCancelar {
+    background-color: #1E8CD8;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+.buttonCancelar {
+    background-color: black
+}
+
+.restricciones {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.textContainer{
+    padding:50px 0 0 50px;
+    width: 70%;
+}
+
+.titleRestricciones {
+    font-size: 30px;
+    padding: 0;
+}
+
+.text{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
