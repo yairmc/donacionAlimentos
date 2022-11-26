@@ -1,0 +1,104 @@
+body {
+    font-family: Nunito;
+    background-color: black;
+    background-image: url('../img/back-signUp.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/* Login Container  */
+
+.conteiner {
+    width: 40%;
+    margin:0 20px;
+}
+
+.iconBreakfast{
+    display: flex;
+    justify-content: center;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp {
+    background-color: #0D215E;
+    border-radius: 5px;
+    margin: 20px;
+    padding:10px 50px;
+    width: 70%;
+}
+
+.signUp p {
+    width: 30%;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.cbUsuario{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cbInput{
+    background-color: #1E5FCE;
+    width: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.input {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    background-color:#1E5FCE;
+}
+
+.buttonContainer{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonSignUp {
+    border-style: none;
+    background-color: #1E8CD8;
+    color: white;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonCancelar{
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 440px) {
+
+}

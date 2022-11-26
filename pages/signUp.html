@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/singUp.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,700&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@0,700;1,700&display=swap" />
     <title>SignUp</title>
 </head>
+
 <body>
+
+    <div class="conteiner">
+        <div class="formContent">
+            <img src="../img/iconBreakfast.png" alt="icono" class="iconBreakfast">
+            <form class="signUp" id="signUpForm">
+                <div class="inputContainer">
+                    <p>Usuario:</p>
+                    <div class="cbUsuario">
+                        <p>Donador</p>
+                        <input class="cbInput" type="checkbox" id="Donador">
+                        <p>Centro</p>
+                        <input class="cbInput" type="checkbox" id="Centro">
+                    </div>
+                </div>
+                <div class="inputContainer">
+                    <p>Nombre:</p>
+                    <input class="input" type="text" id="username">
+                </div>
+                <div class="inputContainer">
+                    <p>Contraseña:</p>
+                    <input class="input" type="password" id="password">
+                </div>
+                <div class="inputContainer">
+                    <p>Contraseña:</p>
+                    <input class="input" type="text" id="repeatPassword">
+                </div>
+                <div class="inputContainer">
+                    <p>Direccion:</p>
+                    <input class="input" type="text" id="address">
+                </div>
+                <div class="inputContainer">
+                    <p>Telefono:</p>
+                    <input class="input" type="text" id="cellphone">
+                </div>
+                <div class="inputContainer">
+                    <p>Horario:</p>
+                    <input class="input" type="text" id="time">
+                </div>
+
+                <div class="buttonContainer">
+                    <input type="submit" value="Ingresar" class="buttonSignUp">
+                    <input type="submit" value="Cancelar" class="buttonCancelar">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
