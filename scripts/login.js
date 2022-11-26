@@ -36,7 +36,7 @@ const fetchLogin = async (e) => {
                 body: JSON.stringify(credentials),
             })
             const data = await response.json();
-            if (data === 'authenticate') location.href = "menuPrincipal.html"
+            if (data === 'authenticate') location.href = "menuUsuario.html"
             else {
                 alert(data);
                 location.reload();
