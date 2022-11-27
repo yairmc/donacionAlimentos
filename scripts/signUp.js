@@ -50,7 +50,7 @@ const fetchSignUp = async (e) => {
                 username: newUsername.value,
                 password: newPassword.value,
                 address: address.value,
-                celphone: celphone.value,
+                celphone: parseInt(celphone.value),
                 timeStart: timeStart.value,
                 timeEnd: timeEnd.value
             }
@@ -61,6 +61,7 @@ const fetchSignUp = async (e) => {
                 body: JSON.stringify(credentials)
             });
             const data = await response.json();
+            console.log(data);
             if (data === 'signUp success') location.href = "/pages/login.html"
             else {
                 alert(data);
