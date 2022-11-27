@@ -8,6 +8,14 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.header{
+    display: flex;
+    background-color: #0D215E;
+    justify-content: space-between;
+    padding:0 100px;
+    height:80px;
+    gap: 30px;
+}
 
 .headerContent {
     display: flex;
@@ -25,7 +33,6 @@ body {
     color: #fff;
     font-size: 40px;
     font-style: italic;
-    padding-left: 50px;
     margin: 0;
 }
 

@@ -93,12 +93,18 @@ body {
     cursor: pointer;
 }
 
+.buttonContent{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .buttonSignUp{
     border-style: none;
     color: white;
     text-decoration: none;
-    text-align: center;
-    padding-top: 40px;
+    
+   width: 25%;
 }
 
 @media (max-width: 440px) {
