@@ -69,6 +69,7 @@ body {
     color: white;
     outline: none;
     background-color:#1E5FCE;
+    width: 50%;
 }
 
 .buttonContainer{
@@ -90,6 +91,8 @@ body {
 
 .buttonCancelar{
     border-style: none;
+    text-decoration: none;
+    text-align: center;
     background-color: black;
     color: white;
     font-size: 25px;

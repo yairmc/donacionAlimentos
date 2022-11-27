@@ -24,18 +24,18 @@
                     <p>Usuario:</p>
                     <div class="cbUsuario">
                         <p>Donador</p>
-                        <input class="cbInput" type="checkbox" id="Donador">
+                        <input class="cbInput" type="checkbox" id="donador">
                         <p>Centro</p>
-                        <input class="cbInput" type="checkbox" id="Centro">
+                        <input class="cbInput" type="checkbox" id="centro">
                     </div>
                 </div>
                 <div class="inputContainer">
                     <p>Nombre:</p>
-                    <input class="input" type="text" id="username">
+                    <input class="input" type="text" id="newUsername">
                 </div>
                 <div class="inputContainer">
                     <p>Contraseña:</p>
-                    <input class="input" type="password" id="password">
+                    <input class="input" type="password" id="newPassword">
                 </div>
                 <div class="inputContainer">
                     <p>Contraseña:</p>
@@ -47,24 +47,26 @@
                 </div>
                 <div class="inputContainer">
                     <p>Telefono:</p>
-                    <input class="input" type="text" id="cellphone">
+                    <input class="input" type="text" id="celphone">
                 </div>
                 <div class="inputContainer">
                     <p>Horario:</p>
-                    <input class="input" type="text" id="time">
+                    <p>de:</p>
+                    <input class="input" type="text" id="timeStart">
+                    <p>a:</p>
+                    <input class="input" type="text" id="timeEnd">
                 </div>
 
                 <div class="buttonContainer">
                     <input type="submit" value="Ingresar" class="buttonSignUp">
-                    <input type="submit" value="Cancelar" class="buttonCancelar">
+                    <a href="./login.html" class="buttonCancelar">Cancelar</a>
                 </div>
 
 
             </form>
         </div>
     </div>
-
-
+    <script src="../scripts/signUp.js"></script>
 </body>
 
 </html>
