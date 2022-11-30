@@ -44,13 +44,19 @@ const fetchSignUp = async (e) => {
         return;
     } else {
 
+
+
         try {
+            if (typeUser==='donador') {
+                timeStart.value = '0'; 
+                timeEnd.value = '0';
+            }
             const credentials = {
                 user: typeUser,
                 username: newUsername.value,
                 password: newPassword.value,
                 address: address.value,
-                celphone: parseInt(celphone.value),
+                celphone: celphone.value,
                 timeStart: timeStart.value,
                 timeEnd: timeEnd.value
             }
